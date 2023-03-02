@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* portfolio */
+.portfolio{
+    background-color: grey;
+}
+.portfolio h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.portfolio .over .over1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 50px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.portfolio .over .over2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+
+.portfolio .content {
+    position: relative;
+    width: 350px;
+   
+}
+
+.portfolio .content .image {
+    display: block;
+    width: 100%;
+}
+
+.portfolio .content .image img {
+    max-width: 100%;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolio .content .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 30px;
+}
+
+.portfolio .content:hover .text {
+    opacity: 1;
+}
+
+.portfolio .content .text h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* ------------------------------------------------media query------------------------------------------------ */
+
+
+@media only screen and (max-width: 600px) {
+    .portfolio .over .over1 {
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .portfolio .over .over2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 40px;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+}

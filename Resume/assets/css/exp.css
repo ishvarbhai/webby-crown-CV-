@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* work experience */
+.Experience{
+    background-color: grey;
+}
+.Experience h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+.Experience .exp1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.Experience .exp1 .webdesign {
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(163, 162, 162);
+    color: white;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s all ease;
+}
+.Experience .exp1 .webdesign:hover{
+    background-color: white;
+    color: grey;
+}
+.Experience .exp1 .webdesign .logo{
+    text-align: center;
+    padding: 20px;
+}
+.Experience .exp1 .webdesign .logo i{
+    font-size: 50px;
+}
+.Experience .exp1 .webdesign .details01 {
+    text-align: center;
+}
+.Experience .exp1 .webdesign .details01 span{
+    font-size: 30px;
+}
+.Experience .exp1 .webdesign .details01 p{
+    text-align: justify;
+    padding: 40px;
+}
+
+/* education */
+
+.education{
+    background-color: grey;
+}
+.education h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.education .edu1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.education .edu1 .school {
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(163, 162, 162);
+    color: white;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: .5s all ease;
+}
+.education .edu1 .school:hover{
+    color: grey;
+    background-color: white;
+}
+.education .edu1 .school .logo{
+    text-align: center;
+    padding: 20px;
+}
+.education .edu1 .school .logo i{
+    font-size: 50px;
+}
+.education .edu1 .school .details01 {
+    text-align: center;
+}
+.education .edu1 .school .details01 span{
+    font-size: 30px;
+}
+.education .edu1 .school .details01 p{
+    text-align: justify;
+    padding: 40px;
+}
+
+
+/* -------------------------------media query------------------------------- */
+
+
+@media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 992px) {
+   
+}
+
+@media (max-width: 768px) {
+   
+}
+ 
+@media (max-width: 600px) {
+    .Experience .exp1 .webdesign {
+        margin: 20px;
+    }
+    .Experience .exp1 .webdesign .details01 p{
+        padding: 10px;
+    }
+    
+}

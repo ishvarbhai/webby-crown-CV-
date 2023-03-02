@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top-header */
+
+.top-header .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.top-header .nav .logo {
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.top-header .nav .logo h1 {
+    font-size: 40px;
+}
+
+.top-header .nav .navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 30px;
+    margin-right: 100px;
+}
+
+.top-header .nav .navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: 1S all ease;
+}
+
+.top-header .nav .navbar ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+/* SEACOND HEADER */
+
+.second-header {
+    background-color: rgba(128, 128, 128, 0.418);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.second-header .home {
+    text-align: center;
+}
+
+.second-header .home h1 {
+    padding-top: 100px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.second-header .home p {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.second-header .home .btn1 {
+    padding: 10px;
+}
+
+.second-header .home .btn1 button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: .5s all ease;
+}
+
+.second-header .home .btn2 button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: .5s all ease;
+}
+
+.second-header .home .btn1 button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.second-header .home .btn2 button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .image {
+    background-color: rgba(128, 128, 128, 0.418);
+    height: 455px;
+    width: 350px;
+    margin: 50px;
+    border: 2px solid rgb(48, 47, 47);
+    border-radius: 50px;
+}
+
+.about .det {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.about .det h2 {
+    padding-bottom: 30px;
+    line-height: 35px;
+}
+
+.about .det p {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.about .det button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: .5s all ease;
+}
+
+.about .det button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+/* skill */
+
+.Professional {
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.Professional h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.Professional .skill {
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.Professional p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.Professional .skills {
+    text-align: right;
+}
+
+.Professional .skill .html {
+    width: 80%;
+    background-color: rgb(161, 158, 158);
+}
+
+.Professional .skill .css {
+    width: 60%;
+    background-color: rgb(161, 158, 158);
+}
+
+.Professional .skill .js {
+    width: 20%;
+    background-color: rgb(161, 158, 158);
+}
+
+.Professional .skill .jq {
+    width: 40%;
+    background-color: rgb(161, 158, 158);
+}
+
+.Professional .skill .bootstrap {
+    width: 60%;
+    background-color: rgb(161, 158, 158);
+}
+
+/* portfolio */
+
+.portfolio h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.portfolio .over .over1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.portfolio .over .over2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.portfolio .content {
+    position: relative;
+    width: 350px;
+}
+
+.portfolio .content .image {
+    display: block;
+    width: 100%;
+}
+
+.portfolio .content .image img {
+    width: 350px;
+    height: 250px;
+}
+
+.portfolio .content .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.portfolio .content:hover .text {
+    opacity: 1;
+}
+
+.portfolio .content:hover .text h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* work experience */
+
+.Experience h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.Experience .exp1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Experience .exp1 .webdesign {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.Experience .exp1 .webdesign .logo{
+    position: absolute;
+    left: 150px;
+    font-size: 50px;
+}
+.Experience .exp1 .webdesign .details01{
+    position: absolute;
+    top: 100px;
+    text-align: justify;
+    padding: 20px;
+}
+.Experience .exp1 .webdesign .details01 span{
+    font-size: 30px;
+}
+.Experience .exp1 .webdesign .details01 p{
+    padding-top: 20px;
+    color: #494747;
+}
+.Experience .exp1 .intern {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.Experience .exp1 .intern .logo{
+    position: absolute;
+    left: 150px;
+    font-size: 50px;
+}
+.Experience .exp1 .intern .details01{
+    position: absolute;
+    top: 100px;
+    text-align: justify;
+    padding: 20px;
+}
+.Experience .exp1 .intern .details01 span{
+    font-size: 30px;
+}
+.Experience .exp1 .intern .details01 p{
+    padding-top: 20px;
+    color: #494747;
+}
+.Experience .exp1 .web {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.Experience .exp1 .web .logo{
+    position: absolute;
+    left: 150px;
+    font-size: 50px;
+}
+.Experience .exp1 .web .details01{
+    position: absolute;
+    top: 100px;
+    text-align: justify;
+    padding: 20px;
+}
+.Experience .exp1 .web .details01 span{
+    font-size: 30px;
+}
+.Experience .exp1 .web .details01 p{
+    padding-top: 20px;
+    color: #494747;
+}

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top-header */
+
+.top-header .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.top-header .nav .logo {
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.top-header .nav .logo h1 {
+    font-size: 40px;
+}
+
+.top-header .nav .navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.top-header .nav .navbar ul li a {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    transition: 1S all ease;
+}
+
+.top-header .nav .navbar ul i {
+    display: none;
+}
+
+.top-header .nav .navbar ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+/* SEACOND HEADER */
+
+.second-header {
+    background-color: rgba(128, 128, 128, 0.418);
+    height: 400px;
+    width: 100%;
+}
+
+.second-header .home {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.second-header .home h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.second-header .home p {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.second-header .home .btn1 {
+    padding: 15px;
+
+}
+
+.second-header .home .btn2 {
+    padding: 15px;
+
+}
+
+.second-header .home .btn1 button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: .5s all ease;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.second-header .home .btn2 button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    transition: .5s all ease;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.second-header .home .btn1 button:hover {
+    color: white;
+    background-color: black;
+}
+
+.second-header .home .btn2 button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+/*---------------------------------------------------- media query ----------------------------------------------------------*/
+
+
+@media (max-width: 1200px) {
+
+    /* top-header */
+
+    .top-header .nav .logo {
+        margin: 30px;
+    }
+
+    .top-header .nav .navbar ul {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /* top-header */
+
+    .top-header .nav .navbar ul li a {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* top-header */
+
+    .top-header .nav .navbar ul li a i {
+        display: block;
+    }
+
+    .top-header .nav .navbar ul li a {
+        display: none;
+    }
+
+    .top-header .nav .navbar ul i {
+        display: block;
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    /* top-header */
+
+    .top-header .nav .navbar ul li a i {
+        display: block;
+    }
+
+    .top-header .nav .navbar ul li a {
+        display: none;
+    }
+
+    .top-header .nav .navbar ul i {
+        display: block;
+        margin-right: 30px;
+    }
+    .second-header .home h1 {
+        font-size: 30px;
+    }
+
+}

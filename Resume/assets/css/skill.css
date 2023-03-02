@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* skill */
+.Professional{
+    background-color: lightgray;
+    padding: 70px;
+}
+.Professional h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.skill{
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    background-color: grey;
+    margin: auto ;
+    padding: 70px 30px;
+    border-radius: 7px;
+}
+.skill .skill-box{
+    width: 100%;
+    padding:20px  0;
+}
+.skill .skill-box .title{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.skill .skill-box .skill-bar{
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill .skill-box .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 80%;
+    border-radius: 6px;
+    background-color: black;
+}
+.skill .skill-box .skill-bar .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.skill .skill-box1{
+    width: 100%;
+    padding:20px 0;
+}
+.skill .skill-box1 .title{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.skill .skill-box1 .skill-bar{
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill .skill-box1 .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 60%;
+    border-radius: 6px;
+    background-color: black;
+}
+.skill .skill-box1 .skill-bar .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: black;
+}
+.skill .skill-box2{
+    width: 100%;
+    padding:20px 0;
+}
+.skill .skill-box2 .title{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.skill .skill-box2 .skill-bar{
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill .skill-box2 .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 40%;
+    border-radius: 6px;
+    background-color: black;
+}
+.skill .skill-box2 .skill-bar .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: black;
+}
+.skill .skill-box3{
+    width: 100%;
+    padding:20px 0;
+}
+.skill .skill-box3 .title{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.skill .skill-box3 .skill-bar{
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill .skill-box3 .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 50%;
+    border-radius: 6px;
+    background-color: black;
+}
+.skill .skill-box3 .skill-bar .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: black;
+}
+.skill .skill-box4{
+    width: 100%;
+    padding:20px 0;
+}
+.skill .skill-box4 .title{
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.skill .skill-box4 .skill-bar{
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.skill .skill-box4 .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    border-radius: 6px;
+    background-color: black;
+}
+.skill .skill-box4 .skill-bar .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+
+/* --------------------------------------media query----------------------------------------- */
+
+
+@media (max-width: 1200px) {
+    .skill{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .skill{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .skill{
+        max-width: 100%;
+    }
+    .skill .skill-box .title{
+        font-size: 15px;
+    }
+    .skill .skill-box1 .title{
+        font-size: 15px;
+    }
+    .skill .skill-box2 .title{
+        font-size: 15px;
+    }
+    .skill .skill-box3 .title{
+        font-size: 15px;
+    }
+    .skill .skill-box4 .title{
+        font-size: 15px;
+    }
+    .Professional h1{
+        text-align: center;
+    }
+    .Professional{
+        padding: 30px;
+    }
+}
+
